@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, Helvetica, Sans-serif;
+}
+
+.bookmarklet {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 4px 8px;
+  background-color: #efefef;
+  text-decoration: none;
+  color: #333;
+}
