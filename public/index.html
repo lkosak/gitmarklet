@@ -10,13 +10,22 @@
     </h1>
 
     <p>
-      You hate trying to read pull requests on github for those loooooooooooooooooong lines on Airbnb?
+      You hate trying to read pull requests on github for those loooooooooooooooooong lines of
+      monorail code?
     </p>
     <p>
       Us, too. Here's a bookmarklet that helps.
     </p>
     <p>
-      <a class="bookmarklet" href="javascript:document.getElementById('js-repo-pjax-container').style.width='auto';document.getElementById('js-repo-pjax-container').style.margin='0 50px';">Embiggen Diffs</a>
+    <a class="bookmarklet" href="javascript:void((function(){var container = document.getElementById('js-repo-pjax-container'); if(container != null) { container.style.width='auto'; container.style.margin='0 50px';}})())">Embiggen Diffs</a>
+    </p>
+    <p>
+      <h2>Before...</h2>
+      <img class="preview" src="/before.png">
+    </p>
+    <p>
+      <h2>After!</h2>
+      <img class="preview" src="/after.png">
     </p>
     <p>
       Boom!
